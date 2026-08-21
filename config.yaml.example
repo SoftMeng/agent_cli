@@ -1,0 +1,13 @@
+skill_dir: ./skills
+memory_dir: ./memory
+sys_prompt: ./AGENT_PROMPT.txt
+llm_provider: openai
+llm_config:
+  api_key: sk-replace-me
+  base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+  chat_model: qwen3.5-flash
+  # Optional provider-specific params merged into the request body.
+  # agent_cli uses the OpenAI Chat Completions path (responses_api is bypassed),
+  # which preserves unknown keys. Example for Qwen3.5 on DashScope:
+  # extra_params:
+  #   enable_thinking: false

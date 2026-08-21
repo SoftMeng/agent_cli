@@ -1,0 +1,33 @@
+# ============ Rust / Cargo ============
+/target/
+**/target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# ============ Sensitive / Local Config ============
+# Real LLM API keys live outside the repo.
+config.yaml
+config.local.yaml
+.env
+.env.*
+!.env.example
+
+# ============ Editor / IDE ============
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.iml
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ Runtime Artifacts ============
+# Agent CLI runtime data (memory store, skill cache, etc.)
+memory/
+.cache/
+*.log
+logs/
