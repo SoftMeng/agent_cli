@@ -31,3 +31,7 @@ memory/
 .cache/
 *.log
 logs/
+
+# ============ Personal Prompt Variants ============
+# Persona-specific system prompt drafts live outside the repo.
+AGENT_PROMPT_秦*.txt
